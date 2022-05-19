@@ -1,0 +1,21 @@
+{
+
+    "DNI": "11111111A",
+
+    "nombre": "Juan Pérez",
+
+    "email": "juan.perez@gmail.com",
+
+    "password": "1234",
+
+    "telefono": "555839003",
+
+    "fechaNacimiento": "1985-05-11T22:00:00.000Z",
+
+    "direccion": "Avda. Pintor Lorenzo Casanova, 10",
+
+    "codigoPostal": "03015",
+
+    "numSeguridadSocial": "67484949000"
+
+}

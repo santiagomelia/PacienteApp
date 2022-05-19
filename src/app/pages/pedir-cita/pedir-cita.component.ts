@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-pedir-cita',
   templateUrl: './pedir-cita.component.html',
-  styleUrls: ['./pedir-cita.component.css']
+  styleUrls: ['./pedir-cita.component.scss']
 })
 export class PedirCitaComponent implements OnInit {
 
