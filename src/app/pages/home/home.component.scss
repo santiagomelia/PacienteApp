@@ -1,0 +1,13 @@
+.card{
+    height: 200px;
+}
+
+.card > a {
+    margin: 0 10% 10% 10%;
+}
+
+.card-title {
+    display:flex;
+    align-items: center;
+    align-content:center;
+}

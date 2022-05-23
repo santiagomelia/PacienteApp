@@ -5,6 +5,7 @@ import { CitasComponent } from './citas/citas.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { EditarPerfilComponent } from './editar-perfil/editar-perfil.component';
 import { PedirCitaComponent } from './pedir-cita/pedir-cita.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -17,7 +18,7 @@ import { PedirCitaComponent } from './pedir-cita/pedir-cita.component';
     PedirCitaComponent
   ],
   imports: [
-    CommonModule
+    CommonModule, RouterModule
   ]
 })
 export class PagesModule { }
