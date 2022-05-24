@@ -1,1 +1,63 @@
-<p>perfil works!</p>
+<h1 class="mt-3 text-center">Perfil del paciente</h1>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Nombre</label>
+                <input type="text" readonly="" class="form-control" [value]="paciente.nombre"/>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Email</label>
+                <div class="div input-group">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" readonly="" class="form-control" [value]="paciente.email"/>
+                </div>    
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Password</label>
+                <input type="password" readonly="" class="form-control" [value]="paciente.password"/>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Dirección</label>
+                <input type="text" readonly="" class="form-control" [value]="paciente.direccion"/>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Código Postal</label>
+                <input type="text" readonly="" class="form-control" [value]="paciente.codigoPostal"/>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Teléfono</label>
+                <input type="text" readonly="" class="form-control" [value]="paciente.telefono"/>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Número de la seguridad social</label>
+                <input type="text" readonly="" class="form-control" [value]="paciente.numSeguridadSocial"/>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="mb-3" form-group>
+                <label class="form-Label">Fecha de nacimiento</label>
+                <input type="text" readonly="" class="form-control" value="{{paciente.fechaNacimiento | date:'dd/MM/yyyy'}}"/>
+            </div>
+        </div>
+    </div>
+</div>
