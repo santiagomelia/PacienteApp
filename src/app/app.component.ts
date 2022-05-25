@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import pacienteJson from './data/paciente.json'
 import { Paciente } from './models/paciente';
+import { LocalStorageService } from './services/local-storage.service';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +12,9 @@ export class AppComponent {
   title = 'PacienteApp';
   public paciente:Paciente;
 
-  public constructor (){
+  public constructor (localStorage:LocalStorageService){
     this.paciente = pacienteJson;
+    localStorage.setItem('paciente', this.paciente);
   }
 
 }
