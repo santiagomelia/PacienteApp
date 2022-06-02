@@ -9,3 +9,20 @@ export interface Paciente {
     codigoPostal:       string;
     numSeguridadSocial: string;
 }
+
+export interface Cita {
+    id:  string;
+    Especialidad: string;
+    Facultativo: string;
+    fecha: string;
+    paciente: string;
+}
+
+export interface Especialidad {
+    nombre: string;
+    medicos: Medico[];
+}
+
+export interface Medico {
+    nombre:string;
+}

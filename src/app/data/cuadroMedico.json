@@ -1,0 +1,25 @@
+[
+
+    {"nombre":"Cardiología",
+  
+      "medicos":[{"nombre":"Juan Roca"}, {"nombre":"Pedro Chest"}]
+  
+    },
+  
+    {"nombre":"Dermatología",
+  
+      "medicos":[{"nombre":"Doris Lorente"}, {"nombre":"Tino Casano"}]
+  
+    },
+  
+    {"nombre":"Psicología",
+  
+      "medicos":[{"nombre":"Franco Pascal"}, {"nombre":"Juana Lasa"}]
+  
+    },
+  
+    {"nombre":"Digestivo",
+  
+      "medicos":[{"nombre":"Daniel Comesaña"}, {"nombre":"Antonio Toledo"}]}
+  
+  ]

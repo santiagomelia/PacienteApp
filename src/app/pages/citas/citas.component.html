@@ -1,1 +1,22 @@
-<p>citas works!</p>
+<h1 class="mt-3 text-center">Citas del paciente</h1>
+
+<div class="container col-md-8 offset-md-2">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th scope="col">Especialidad</th>
+            <th scope="col">Facultativo</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Acción</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="table-default" *ngFor="let cita of citas">
+            <td>{{cita.Especialidad}}</td>
+            <td>{{cita.Facultativo}}</td>
+            <td>{{cita.fecha | date:'dd/MM/yyyy'}}</td>
+            <td><button type="button" class="btn btn-outline-danger" (click)="borrar(cita.fecha, cita.Facultativo)">Borrar</button></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
